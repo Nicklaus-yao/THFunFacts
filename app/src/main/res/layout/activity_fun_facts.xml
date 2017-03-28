@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51b46d"
+    android:padding="50dp"
+    tools:context="com.nykidxxx.thfunfacts.FunFactsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewFact"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewFact"
+        android:layout_marginTop="13dp"
+        android:text="Did you know?"
+        android:textColor="#80FFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewFact"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Ants stretch when they wake up in the morning."
+        android:textColor="#FFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonShowFact"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="#FFF"
+        android:text="Show Another Fun Fact"
+        android:textColor="#51b46d" />
+
+</RelativeLayout>
