@@ -1,10 +1,8 @@
 package com.nykidxxx.thfunfacts;
 
 import android.graphics.Color;
-
 import java.util.Random;
 
-// Created on 3/28/2017
 public class ColorWheel {
 
     // Fields
